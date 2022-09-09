@@ -1,0 +1,30 @@
+Started by user [8mha:////4HaRgvsWYfwweTyFUl+2DCcYt7dnDEakvq20s7MLbdVXAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgYB/dLi1CL9xJyyxKL85HRLCwBMK41cxQAAAA==[0mAlvaro Caño Gomez
+Running as SYSTEM
+Building on the built-in node in workspace C:\Users\acano\Desktop\jenkins-docker-cypress\pruebas
+[8mha:////4BIco7lQ8Vvm62bYylLExocnMxXLJSwsH3p23UbmgJ7dAAAAqx+LCAAAAAAAAP9b85aBtbiIQSujNKU4P0+vIKc0PTOvWC8xrzgzOT8nv0gvMbkkEyjhCKb88ktSdwVsu2efuqidiYHRh4EDIu2ZUsIg5JOVWJaon5OYl64fXFKUmZduXVHEIAU1ODk/rzg/J1XPGUKDDGKAAEYmBoaKghIGlaRUE4vE5CQj3cTUxDRdEyNDQ11LYwNL3TRTi0TD1ETTRIPkVADy9ZsFrwAAAA==[0m[pruebas] $ cmd /c call /tmp/jenkins4475429379012949817.bat
+FATAL: command execution failed
+java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+Caused: java.io.IOException: Cannot run program "cmd" (in directory "C:\Users\acano\Desktop\jenkins-docker-cypress\pruebas"): error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at hudson.Proc$LocalProc.<init>(Proc.java:254)
+	at hudson.Proc$LocalProc.<init>(Proc.java:223)
+	at hudson.Launcher$LocalLauncher.launch(Launcher.java:997)
+	at hudson.Launcher$ProcStarter.start(Launcher.java:509)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:144)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:92)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:816)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:524)
+	at hudson.model.Run.execute(Run.java:1899)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:107)
+	at hudson.model.Executor.run(Executor.java:449)
+Build step 'Execute Windows batch command' marked build as failure
+Finished: FAILURE

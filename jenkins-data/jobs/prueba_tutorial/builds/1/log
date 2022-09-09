@@ -1,0 +1,7 @@
+Started by user [8mha:////4HaRgvsWYfwweTyFUl+2DCcYt7dnDEakvq20s7MLbdVXAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgYB/dLi1CL9xJyyxKL85HRLCwBMK41cxQAAAA==[0mAlvaro Ca?o Gomez
+Running as SYSTEM
+Building remotely on [8mha:////4AwOQ0BGPNRnFV88SHWCr0lK/Iks0WJ6n0eASHAuRaNxAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZx/eT83ILSktQi/azUvOzMvOL4xPTUvBIAR8oodcwAAAA=[0mjenkins_agent (agent_1 agent_2 agent_3) in workspace /home/jenkins/agent/workspace/prueba_tutorial
+[prueba_tutorial] $ /bin/sh -xe /tmp/jenkins1637519043234196361.sh
++ echo hello world
+hello world
+Finished: SUCCESS

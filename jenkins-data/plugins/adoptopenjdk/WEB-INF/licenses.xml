@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l:dependencies xmlns:l='licenses' groupId='io.jenkins.plugins' artifactId='adoptopenjdk' version='1.4'><l:dependency name='AdoptOpenJDK installer Plugin' groupId='io.jenkins.plugins' artifactId='adoptopenjdk' version='1.4' url='https://github.com/jenkinsci/adoptopenjdk-plugin'><l:description>Provides an installer for the JDK tool that downloads the JDK from https://adoptopenjdk.net/</l:description><l:license name='MIT License' url='https://opensource.org/licenses/MIT'/></l:dependency></l:dependencies>

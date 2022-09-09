@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: hrmohr
+Build-Jdk: 15.0.2
+Extension-Name: adoptopenjdk
+Specification-Title: Provides an installer for the JDK tool that downl
+ oads the JDK from https://adoptopenjdk.net/
+Implementation-Title: adoptopenjdk
+Implementation-Version: 1.4
+Group-Id: io.jenkins.plugins
+Short-Name: adoptopenjdk
+Long-Name: AdoptOpenJDK installer Plugin
+Url: https://github.com/jenkinsci/adoptopenjdk-plugin
+Minimum-Java-Version: 1.8
+Plugin-Version: 1.4
+Hudson-Version: 2.164.3
+Jenkins-Version: 2.164.3
+Plugin-Developers: Mads Mohr Christensen:mmchr:hr.mohr@gmail.com
+Plugin-License-Name: MIT License
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmUrl: https://github.com/jenkinsci/adoptopenjdk-plugin
+

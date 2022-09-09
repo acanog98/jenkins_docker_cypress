@@ -1,0 +1,40 @@
+{
+   "lambdatest_auth": {
+      "username": "acanogom",
+      "access_key": "NlMlgTNTJPCZ7vAR11K9Dq4piyFnCl4b0rgcgRgD4EmuUstuel"
+   },
+   "browsers": [
+      {
+         "browser": "Chrome",
+         "platform": "Windows 10",
+         "versions": [
+            "latest-1"
+         ]
+      },
+      {
+         "browser": "Firefox",
+         "platform": "Windows 10",
+         "versions": [
+            "latest-1"
+         ]
+      }
+   ],
+   "run_settings": {
+      "cypress_config_file": "cypress.config.js",
+      "build_name": "build-name",
+      "parallels": 4,
+      "specs": "cypress/e2e/features",
+      "ignore_files": "",
+      "feature_file_suppport": true,
+      "network": false,
+      "headless": false,
+      "reporter_config_file": "",
+      "npm_dependencies": {
+         "cypress": "^10.3.0"
+      }
+   },
+   "tunnel_settings": {
+      "tunnel": false,
+      "tunnel_name": null
+   }
+}

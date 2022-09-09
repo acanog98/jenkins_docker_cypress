@@ -1,0 +1,44 @@
+pipeline {
+    agent any
+
+    options {
+        ansiColor('xterm')
+    }
+
+    stages {
+
+        stage('Cypress Parallel Test Suite') {
+            parallel {
+                stage('Slave 1') {
+                    agent {
+                        label "NodoPipeline_1"
+                    }
+                    steps {
+                        git url: 'https://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@github.com/acanogom/pruebas.git'
+                        bat 'npm i'                      
+                        bat 'npx cypress run --spec cypress/e2e/features/login.feature --parallel'
+                    
+                    }
+                }
+
+                stage('Slave 2') {
+                    agent {
+                        label "NodoPipeline_2"
+                    }
+                    steps {
+                        git url: 'https://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@github.com/acanogom/pruebas.git'
+                        bat 'npm install'
+                        bat 'npm update'                       
+                        bat 'npx cypress run --spec cypress/e2e/features/simuladores_santander.feature --parallel'
+                    
+                    }
+                }
+         
+            }
+
+             
+        }
+
+    }
+            
+}

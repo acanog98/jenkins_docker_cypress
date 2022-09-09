@@ -1,0 +1,40 @@
+pipeline {
+    agent any
+
+    options {
+        ansiColor('xterm')
+    }
+
+    stages {
+
+        stage('Cypress Parallel Test Suite') {
+            parallel {
+                stage('Slave 1') {
+
+                    steps {
+                        echo 'prueba 1'
+                        git url: 'https://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@github.com/acanogom/pruebas.git'
+                        sh 'npm i'                      
+                        sh 'npm run cypress:parallel'
+                    }
+                }
+
+                stage('Slave 2') {
+
+                    steps {
+                        echo 'prueba 2'
+                        git url: 'https://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@github.com/acanogom/pruebas.git'
+                        sh 'npm i'                 
+                        sh 'npm run cypress:parallel'
+                    }
+                }
+         
+            }
+
+             
+        }
+
+    }
+            
+}
+

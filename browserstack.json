@@ -1,0 +1,30 @@
+{
+    "auth": {
+      "username": "alvarocaogomez_lYMPtI",
+      "access_key": "xL1Y5fy48nS7FQitNQye"
+    },
+    "browsers": [{
+        "browser": "chrome",
+        "os": "Windows 10",
+        "versions": ["latest", "latest - 1"]
+      },
+      {
+        "browser": "firefox",
+        "os": "Windows 10",
+        "versions": ["latest"]
+      },
+      {
+        "browser": "edge",
+        "os": "Windows 10",
+        "versions": ["latest"]
+      }
+    ],
+    "run_settings": {
+      "cypress_config_file": "./cypress.config.js",
+      "cypress_version": "10.3.0",
+      "project_name": "Pruebas Cypress Simuladores",
+      "build_name": "PipelineBranch Paralelo",
+      "parallels": 4,
+      "exclude": ["some-folder/test.js", "static/*.pdf"]
+  }
+}  
